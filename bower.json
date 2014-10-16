@@ -1,0 +1,24 @@
+{
+  "name": "semver",
+  "version": "4.1.0",
+  "authors": [
+    "Hannes Diercks <hannes.diercks@jimdo.com>",
+    "Joscha Feth <joscha.feth@jimdo.com>"
+  ],
+  "homepage": "https://github.com/Jimdo/bower-semver",
+  "repository": "git@github.com:Jimdo/bower-semver.git",
+  "description": "node-semver exposed as bower package",
+  "main": "dist/semver.browser.js",
+  "keywords": [
+    "semver",
+    "version"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

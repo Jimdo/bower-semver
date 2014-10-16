@@ -1,0 +1,16 @@
+{
+  "name": "bower-semver",
+  "version": "0.0.1",
+  "description": "node-semver exposed as bower package",
+  "main": "dist/semver.browser.js",
+  "homepage": "https://github.com/Jimdo/bower-semver",
+  "repository": "git@github.com:Jimdo/bower-semver.git",
+  "scripts": {
+    "postinstall": "cp node_modules/semver/semver.browser.js dist/semver.browser.js"
+  },
+  "author": "",
+  "license": "BSD",
+  "devDependencies": {
+    "semver": "4.1.0"
+  }
+}
